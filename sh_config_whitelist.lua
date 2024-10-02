@@ -16,7 +16,7 @@ AtmosWhitelist.BypassSteamIDs = {
 AtmosWhitelist.Command = "whitelist_menu"
 
 -- Editable texts
-local language = "fr" -- Choose your language "fr" or "en"
+local language = GetConVar("gmod_language"):GetString()
 
 if language == "fr" then
     AtmosWhitelist.NotWL = "Tu n'es pas whitelist."
